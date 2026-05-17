@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+nav {
+  background: rgba(0,0,0,0.7);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffcc00;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffaa00;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
+
+}
